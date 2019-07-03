@@ -1,0 +1,6 @@
+```
+rustup target add x86_64-unknown-linux-musl
+yay -S musl openssl pkg-config
+
+cargo build --target=x86_64-unknown-linux-musl --release
+```
