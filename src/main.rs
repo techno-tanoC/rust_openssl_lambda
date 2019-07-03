@@ -19,7 +19,7 @@ fn main() {
     lambda!(my_handler);
 }
 
-fn my_handler(e: CustomEvent, c: Context) -> Result<CustomOutput, HandlerError> {
+fn my_handler(e: CustomEvent, _c: Context) -> Result<CustomOutput, HandlerError> {
     if e.url == "" {
         bail!("Empty first name");
     }

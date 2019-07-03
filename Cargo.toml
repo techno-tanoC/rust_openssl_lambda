@@ -1,5 +1,5 @@
 [package]
-name = "rust_lambda"
+name = "rust_openssl_lambda"
 version = "0.1.0"
 authors = ["techno-tanoC <develop.tanoc@gmail.com>"]
 edition = "2018"
